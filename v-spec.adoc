@@ -22,15 +22,15 @@ machines with different values for these parameters.
 
 NOTE: Code can be written that will expose implementation parameters.
 
-The maximum size of a single vector element in bits, stem:[ELEN].
+The maximum size of a single vector element in bits, latexmath:[ELEN].
 Must be a power of 2.
 
-The number of bits in a vector register, stem:[VLEN \geq ELEN].  Must
+The number of bits in a vector register, latexmath:[VLEN \geq ELEN].  Must
 be a power of 2.
 
 NOTE: Platform profiles may set further constraints on these
-parameters, for example, requiring that stem:[ELEN \geq
-max(XLEN,FLEN)] or requiring a minimum stem:[VLEN] value.
+parameters, for example, requiring that latexmath:[ELEN \geq
+max(XLEN,FLEN)] or requiring a minimum latexmath:[VLEN] value.
 
 NOTE: Vector contexts cannot be migrated across vector units with
 different VLEN and ELEN settings.
