@@ -5,7 +5,7 @@ Version 0.6-draft
 :lang: en
 :toc: left
 :numbered:
-:stem: latexmath
+:stem:
 
 == Note
 
